@@ -6,16 +6,13 @@ using namespace std;
 
 void exercise_1(string s1) {
   
-  string str;
-  getline(cin, str);
-
-  for (int i = 0; i <= str.size(); ++i) {
-      if (str[i] == ' ') {
+  for (int i = 0; i <= s1.size(); ++i) {
+      if (s1[i] == ' ') {
            cout << i << endl;
       }
   }
-  cout << str.size() << endl;
-  return 0;
+  cout << s1.size() << endl;
+  return i;
 }
 
 void exercise_2(string s1) {
