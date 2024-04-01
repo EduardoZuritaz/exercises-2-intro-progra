@@ -15,6 +15,7 @@ void exercise_1(string s1) {
       }
   }
   cout << str.size() << endl;
+  return 0;
 }
 
 void exercise_2(string s1) {
