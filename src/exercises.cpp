@@ -47,6 +47,7 @@ void exercise_7(int n) {
     result += pow((-1),i + 1)/i;
   }
   cout << result << endl;
+  return 0;
 }
 
 void exercise_8(string s) {
@@ -71,7 +72,12 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
+  cin >> n;
+  cin >> k;
+  int res = 0;
+  for(int i = 1; i <= n; i++){
+    res += pow(i,k);
+  }
   return 0;
 }
 
