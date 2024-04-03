@@ -15,15 +15,7 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-      string word;
-    for (int i = 0; i <= s1.size(); ++i) {
-        if (!word.empty()) {
-            cout << "[" << word << "]" << endl;
-            word = "";
-        }
-    } else if {
-        word += s1[i];
-    }
+  // TODO: YOUR CODE HERE
 }
 
 void exercise_3(string s1) {
@@ -38,7 +30,7 @@ void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
 }
 
-int exercise_6(int n) {
+int exercise_6(int n) {   
   cin >> n;
   int sum = 0;
   while(n > 0){
@@ -49,7 +41,12 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+  int n = 3;
+  double result;
+  for(int i = 1; i <= n; i++) {
+    result += pow((-1),i + 1)/i;
+  }
+  cout << result << endl;
 }
 
 void exercise_8(string s) {
