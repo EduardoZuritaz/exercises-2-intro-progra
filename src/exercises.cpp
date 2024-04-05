@@ -12,6 +12,7 @@ void exercise_1(string s1) {
       }
   }
   cout << s1.size() << endl;
+
 }
 
 void exercise_2(string s1) {
@@ -19,7 +20,21 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+    int cake_count = 0;
+
+  for (int i = 0; i < 10; ++i) {
+    int cake;
+    cin >> cake;
+    if (cake == 1) {
+        cout << "Om-nom-nom :P" << endl;
+        cake_count++;
+    } else{
+        cout << "No cake :(" << endl;
+        break;
+    }
+  }
+
+  cout << "Total Om-nom-nom :P:" << cake_count << endl;
 }
 
 void exercise_4(int n) {
