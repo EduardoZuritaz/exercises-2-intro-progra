@@ -62,7 +62,6 @@ void exercise_7(int n) {
     result += pow((-1),i + 1)/i;
   }
   cout << result << endl;
-  return 0;
 }
 
 void exercise_8(string s) {
