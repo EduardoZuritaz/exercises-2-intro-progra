@@ -56,12 +56,7 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  int n = 3;
-  double result;
-  for(int i = 1; i <= n; i++){
-    result += pow((-1),i + 1)/i;
-  }
-  cout << result << endl;
+  // TODO: YOUR CODE HERE
 }
 
 void exercise_8(string s) {
@@ -86,13 +81,7 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  cin >> n;
-  cin >> k;
-  int res = 0;
-  for(int i = 1; i <= n; i++){
-    res += pow(i,k);
-  }
-  return 0;
+  // TODO: YOUR CODE HERE
 }
 
 string exercise_14(int n) {
