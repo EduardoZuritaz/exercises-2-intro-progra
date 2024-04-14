@@ -53,7 +53,17 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+  cin >> n;
+    
+    double suma = 0.0;
+    int k = 1;
+    
+    for (int i = 1; i <= n; i++) {
+        suma += 1.0 / i * k;
+        k *= -1;
+    }
+    
+    cout << suma;
 }
 
 void exercise_8(string s) {
