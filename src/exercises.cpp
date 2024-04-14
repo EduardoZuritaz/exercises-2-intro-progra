@@ -74,7 +74,7 @@ void exercise_7(int n) {
         suma += 1.0 / i * k;
         k *= -1;
     }
-    
+    cout << suma;
 }
 
 void exercise_8(string s) {
