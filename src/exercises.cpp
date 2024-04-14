@@ -67,14 +67,12 @@ int exercise_6(int n) {
 void exercise_7(int n) {
   cin >> n;
     
-    double suma = 0.0;
-    int k = 1;
+    double suma = 0;
     
     for (int i = 1; i <= n; i++) {
-        suma += 1.0 / i * k;
-        k *= -1;
+        suma += pow(-1,i+1)/i;
     }
-    cout << suma;
+    cout << suma << endl;
 }
 
 void exercise_8(string s) {
