@@ -80,12 +80,11 @@ void exercise_12() {
 long exercise_13(int n, int k) {
   int resultado = 0;
     
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= n; i++) {
         resultado += pow(i, k);
     }
     
     cout << resultado << endl;
-    
 }
 
 string exercise_14(int n) {
