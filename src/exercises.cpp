@@ -31,8 +31,7 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  cin >> 1 , 0;
-  
+   // TODO: YOUR CODE HERE
 }
 
 void exercise_4(int n) {
