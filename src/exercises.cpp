@@ -63,7 +63,7 @@ void exercise_7(int n) {
         k *= -1;
     }
     
-    cout << suma;
+    return suma;
 }
 
 void exercise_8(string s) {
