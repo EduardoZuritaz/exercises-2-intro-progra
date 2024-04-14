@@ -84,7 +84,7 @@ long exercise_13(int n, int k) {
         resultado += pow(i, k);
     }
     
-    cout << resultado << endl;
+    return resultado;
 }
 
 string exercise_14(int n) {
