@@ -31,7 +31,8 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+  cin >> 1 , 0;
+  
 }
 
 void exercise_4(int n) {
@@ -78,7 +79,14 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
+  int resultado = 0;
+    
+    for (int i = 1; i <= N; i++) {
+        resultado += pow(i, k);
+    }
+    
+    cout << resultado << endl;
+    
 }
 
 string exercise_14(int n) {
