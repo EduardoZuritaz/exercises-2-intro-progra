@@ -113,7 +113,14 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+  double sec2 = 1;
+  double v = sec2;
+  for(int i = 1; 10 >= i; ++i){
+    int Vn = v;
+    double result = sec2/(i + 1 );
+    cout << "U" << i << "=" << sec2 << " " << i << " =" << Vn << endl;
+    sec2 = result;
+  }
 }
 
 long exercise_13(int n, int k) {
