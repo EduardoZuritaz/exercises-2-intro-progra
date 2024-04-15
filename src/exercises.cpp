@@ -143,7 +143,17 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+  int coc = 0;
+  int res = divident;
+  int i = 0;
+  if (divider! = 0){
+    for(i; res-divider >= 0; ++i){
+      res = res - divider;
+    }
+    coc = i;
+    cout << coc << " ";
+    cout << res << endl;
+  }
 }
 
 void exercise_17(int n) {
