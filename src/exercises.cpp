@@ -107,7 +107,7 @@ void exercise_11() {
   cout << "U0 = 1" << endl;
   for(int i = 1; 10 <= i; ++i){
     double result = sec/( i + 1);
-    cout << "U" << i < " = " << sec << endl;
+    cout << "U" << i << " = " << sec << endl;
     sec = result;
   }
 }
