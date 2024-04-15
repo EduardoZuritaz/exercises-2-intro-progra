@@ -146,7 +146,7 @@ void exercise_16(int divident, int divider) {
   int coc = 0;
   int res = divident;
   int i = 0;
-  if (divider! = 0){
+  if (divider!= 0){
     for(i; res-divider >= 0; ++i){
       res = res - divider;
     }
