@@ -118,7 +118,7 @@ void exercise_12() {
   for(int i = 1; 10 >= i; ++i){
     int Vn = v;
     double result = sec2/(i + 1 );
-    cout << "U" << i << " = " << sec2 << " " << i << " =" << Vn << endl;
+    cout << "U" << i << " = " << sec2 << " " << i << " = " << Vn << endl;
     sec2 = result;
   }
 }
