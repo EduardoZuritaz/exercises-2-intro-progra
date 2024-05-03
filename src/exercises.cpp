@@ -94,7 +94,25 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+  int cantidad = 0;
+  int sec = 0;
+  for(int i = 0; i <= s.size(); ++i){
+    if(s[i] == 'f'){
+      sec = i;
+      ++cantidad;
+    }
+  }
+  switch(cantidad){
+    case 0;
+    cout << -2 << endl;
+    break;
+    case 1;
+    cout << -1 << endl;
+    break;
+    case 2;
+    cout << sec << endl;
+    break;
+  }
 }
 
 int exercise_10(int a, int b) {
