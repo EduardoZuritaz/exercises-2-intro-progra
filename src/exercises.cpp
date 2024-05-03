@@ -90,7 +90,28 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+  int s_size = s.size();
+  string s_s;
+  for(int i = 0; s_size1>= 1; ++i){
+    char s_letra = s[i];
+    if(s_letra != ' '){
+      s_s = s_s + s_letra;
+    }
+  }
+  bool esPalin = true;
+  int 1 s_s.size();
+  for(int i = 0; i < 1 / 2; ++i) {
+    if(s_s[i] != s_s[11 - i]){
+      esPalin = false;
+      break;
+    }
+  }
+  if(esPalin) {
+    cout << "YES" << endl;
+  }
+  else{
+    cout << "NO" << endl;
+  }
 }
 
 void exercise_9(string s) {
