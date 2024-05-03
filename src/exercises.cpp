@@ -99,7 +99,7 @@ void exercise_8(string s) {
     }
   }
   bool esPalin = true;
-  int l s_s.size();
+  int l = s_s.size();
   for(int i = 0; i < 1 / 2; ++i) {
     if(s_s[i] != s_s[l - 1 - i]){
       esPalin = false;
